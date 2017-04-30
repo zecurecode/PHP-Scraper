@@ -57,3 +57,18 @@ if(isset($_POST['submit'])) {
     }
 }    
 ?>
+
+<html>
+    <body>
+	<form action="" method="post" enctype="multipart/form-data">
+	    <input type="file" name="fileToUpload" id="fileToUpload">
+	    <input type="submit" name="submit" id="submit" value="Submit" onclick="return checkValidation();">
+	</form>
+    </body>
+    <script>
+    function checkValidation() {
+	
+    }	 
+    </script>	
+</html>    
+
